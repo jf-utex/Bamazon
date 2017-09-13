@@ -94,10 +94,8 @@ connection.query("SELECT * FROM products", function(err, res) {
               console.log('Failed to complete purchase')
             } else {
               console.log('Purchase complete!')
-
             }
           });
-
       }
 
     });

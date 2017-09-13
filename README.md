@@ -21,7 +21,7 @@ A prompt will allow you, to select an item based on the ID number.  The program
 The table will be updated with the new quantity available for purchase.
 Below is a link to a You Tube video showing the app.
 
- [You Tube ](https://youtu.be/jatLDB2YUNg)
+ [You Tube ](https://youtu.be/Lf5OU0FxAZY)
 ---------------------------------------------------------------------------------------
 
 In the future, a managers view will expand the application by providing information regarding:
