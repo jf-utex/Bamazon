@@ -80,7 +80,7 @@ connection.query("SELECT * FROM products", function(err, res) {
       if (item.quantity < itemQuantity) {
         console.log("Insufficient Quantity Available");
       } else {
-        console.log(`Purchase of ${item.product} successful!`)
+        console.log(`Purchase of ${item.product} successful!`);
         console.log(`Total: ${itemQuantity * item.price}`);
         connection.query('UPDATE products SET ? WHERE ?', [{
               quantity: item.quantity - itemQuantity
@@ -94,6 +94,7 @@ connection.query("SELECT * FROM products", function(err, res) {
               console.log('Failed to complete purchase')
             } else {
               console.log('Purchase complete!')
+
             }
           });
 

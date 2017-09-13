@@ -8,6 +8,7 @@ This application utilizes **MySQL** and **Node.js**.  It requires the use of the
 * inquirer
 * cli-table
 
+The file to run the application is **bamazonCustomer.js**.
 
 A table containing "inventory" has been created using a MySQL Database.
 
@@ -18,7 +19,9 @@ This app provides a customer view of inventory available. The inventory data is 
 A prompt will allow you, to select an item based on the ID number.  The program will check to see if the quantity available will allow the purchase of the intended item. If the quantity will allow, the purchase will be made and you will be notified that the purchase is complete with the total amount paid.  
 
 The table will be updated with the new quantity available for purchase.
+Below is a link to a You Tube video showing the app.
 
+ [You Tube ](https://youtu.be/jatLDB2YUNg)
 ---------------------------------------------------------------------------------------
 
 In the future, a managers view will expand the application by providing information regarding:
