@@ -4,9 +4,9 @@ An Amazon type CLI created with MySQL
 
 This application utilizes **MySQL** and **Node.js**.  It requires the use of the npm packages:
 
-*mysql
-*inquirer
-*cli-table
+* mysql
+* inquirer
+* cli-table
 
 
 A table containing "inventory" has been created using a MySQL Database.
@@ -23,13 +23,13 @@ The table will be updated with the new quantity available for purchase.
 
 In the future, a managers view will expand the application by providing information regarding:
 
-**View Products for Sale
+* View Products for Sale
 
-**View Low Inventory
+* View Low Inventory
 
-**Add to Inventory
+* Add to Inventory
 
-**Add New Product
+* Add New Product
 
 
 Under the Hood:
@@ -39,20 +39,20 @@ A table inside of that database is called products.
 
 The products in the table has the following columns:
 
-**item_id (unique id for each product)
+* item_id (unique id for each product)
 
-**product_name (Name of product)
+* product_name (Name of product)
 
-**department_name
+* department_name
 
-**price (cost to customer)
+* price (cost to customer)
 
-**stock_quantity (how much of the product is available in stores)
+* stock_quantity (how much of the product is available in stores)
 
 
 The initial database is populated with 17 different products. (i.e. "mock" data rows into this database and table).
 
-There is a Node application called bamazonCustomer.js. Running this application first displays all of the items available for sale. Included in the display are the ids, names, and prices of products for sale.
+There is a node application called **bamazonCustomer.js**. Running this application first displays all of the items available for sale. Included in the display are the ids, names, and prices of products for sale.
 
 The app then prompts users with two messages.
 
