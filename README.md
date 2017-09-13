@@ -2,7 +2,7 @@
 An Amazon type CLI created with MySQL
 
 
-This application utilizes MySQL and Node.js.  It requires the use of the npm packages:
+This application utilizes **MySQL** and **Node.js**.  It requires the use of the npm packages:
 
 *mysql
 *inquirer
